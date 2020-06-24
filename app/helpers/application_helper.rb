@@ -8,15 +8,15 @@ module ApplicationHelper
 
             case language.to_s
             when 'rb'
-                lang = :ruby
+                lang = 'ruby'
             when 'yml'
-                lang = :yaml
+                lang = 'yaml'
             when 'css'
-                lang = :css
+                lang = 'css'
             when 'html'
-                lang = :html
+                lang = 'html'
             when ''
-                lang = :md
+                lang = 'md'
             else
                 lang = language
             end
